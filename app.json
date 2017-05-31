@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index", 
+    "pages/category/index",
+    "pages/cart/index",
+    "pages/my/index",   
+    "pages/find/index",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text":"推荐",
+      "iconPath":"/images/good.png",
+      "selectedIconPath":"/images/good-1.png"
+    }, {
+      "pagePath": "pages/category/index",
+      "text":"列表",
+      "iconPath":"/images/category.png",
+      "selectedIconPath":"/images/category-1.png"
+    },{
+      "pagePath": "pages/cart/index",
+      "text": "购物车",
+      "iconPath":"/images/cart.png",
+      "selectedIconPath":"/images/cart-1.png"
+    },{
+      "pagePath": "pages/my/index",
+      "text": "我的",
+      "iconPath":"/images/my.png",
+      "selectedIconPath":"/images/my-1.png"
+    }],
+    "selectedColor":"#d81e06",
+    "borderStyle":"white",
+    "backgroundColor":"#fff"
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "京东优选",
+    "navigationBarTextStyle":"#fff"
+  }
+}
