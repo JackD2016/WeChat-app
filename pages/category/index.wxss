@@ -1,0 +1,49 @@
+/**index.wxss**/
+.container {
+  height: 100%;
+  background-color:#f3f3f3;
+ display: flex;
+ flex-direction: row;
+ align-items: flex-start;
+ padding-top:10px; 
+} 
+.left{
+  width: 20%;
+}
+.left_text{
+  padding:10px ;
+  text-align: center;
+  font-size: 12px;
+  font-family: "微软雅黑";
+}
+.right{
+ width:80%;
+}
+.ad image{
+  width: 300px;
+  height: 102px;
+  margin-bottom: 20px;
+}
+.adlist image{
+  width: 80px;
+  height: 80px;
+} 
+.adtitle{
+  margin-bottom: 20px;
+}
+.adlist{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  font-family: "微软雅黑";
+}
+.adul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.add{
+  margin-bottom: 10px;
+}

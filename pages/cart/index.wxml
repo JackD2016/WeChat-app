@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+      <view class="cart">
+      		<!-- <image src="../images/carts" /> -->
+			<text>登录后可同步电脑与手机购物车</text>
+ 	        <button type="warn" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="tomy" hover-class="other-button-hover">登录</button>
+      </view>
+</view>
+ 
+  

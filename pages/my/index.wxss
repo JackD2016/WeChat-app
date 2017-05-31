@@ -1,0 +1,66 @@
+/**index.wxss**/
+.container {
+  height: 100%;
+  background-color:#f3f3f3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+  justify-content:flex-start;
+} 
+input{
+	background-color: #fff;
+	display: block;
+	height: 30px;
+	font-size: 12px;
+	width: 300px;
+	margin-bottom: 20px;
+	color:#fff;
+	font-family: "微软雅黑";
+	padding-left:10px;
+	border: 1px solid #ccc;
+}
+.section1{
+	display: flex;
+    flex-direction: column;
+}
+.switch1{
+	position: absolute;
+	z-index: 5;
+	float: right;
+}
+/* .binglie{
+	position: relative;
+	width: 300px;
+	height: 30px;
+	background-color: #fff;	
+} */
+.section2{
+	
+}
+.section3{
+	vertical-align: middle;
+}
+.section{
+	width: 300px;
+	margin-top: 35px; 
+	font-family: "微软雅黑";
+	color: #333333;
+	font-size: 12px;
+}
+.section4{
+	display: flex;
+	justify-content:space-around;
+}
+.section5{
+	text-align: center;
+}
+.btn-area{
+	font-size: 12px;
+}

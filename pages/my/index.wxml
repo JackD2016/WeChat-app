@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container">
+	   <view class="section section1">
+		   <input placeholder="用户名/邮箱/已验证手机"/>
+		   <input placeholder="请输入密码"/>
+		   <input placeholder="请输入验证码"/>
+		</view>
+		<view class="section section2">
+			  <view class="btn-area">
+			    <button bindtap="bindButtonTap">登录</button>
+			  </view>
+		</view>
+		<view class="section section3">
+			  <radio value="radio1"/>
+			  <text>一个月内免登陆</text>
+		</view>
+	<view class="section section4">
+	  <text>找回密码</text>
+	  <text>快速注册</text>
+	</view>
+	<view class="section section5">
+	  <text>其他登录方式</text>
+	</view>
+</view>

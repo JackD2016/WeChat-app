@@ -1,0 +1,58 @@
+<!--index.wxml-->
+<view class="container">
+
+    <view class="page">
+        <view class="form">
+            <form action="" class="form1">
+               <input  class="input1" name="input" placeholder="搜索" />   
+            </form>
+            <span class="login">登录</span>
+        </view>
+        <swiper indicator-dots="{{indicatorDots}}"
+            autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+            <block wx:for="{{imgUrls}}" wx-key="item">
+              <swiper-item>
+                <image src="{{item.imgUrl}}" class="slide-image"/>
+              </swiper-item>
+            </block>
+          </swiper>
+    </view>
+    <view class="serverlist">
+        <view class="wraper">
+            <block wx:for="{{serverlist}}" wx:key="{{item}}" >
+             <view class="list" bindtap="gotoserver">
+                <image src="{{item.imageUrl}}"/>
+                <text class="desc">{{item.description}}</text>
+             </view>
+           </block>
+        </view>
+    </view>
+    <view class="love">
+        <view class="wrap">
+            <block wx:for="{{lovelist}}">
+                <view class="toppic">
+                <image class="toppic1" src="{{item.imageUrl}}"/>
+                <image class="toppic2" src="{{item.imageUrl1}}"/>
+                </view>
+                <view class="left">
+                    <view class="left_top"  wx:for="{{piclist}}">
+                        <view class="left_top_left">
+                            <text class="descr1">{{item.item1}}</text>
+                            <text class="descr2">{{item.item2}}</text>
+                        </view>
+                        <image src="{{item.imagess}}"/>
+                    </view>
+                </view>
+                <view class="left1">
+                      <view class="left_buttom" wx:for="{{piclist1}}">
+                        <view class="left_top_top">
+                            <text class="descr1">{{item.item1}}</text>
+                            <text class="descr2">{{item.item2}}</text>
+                        </view>
+                        <image  src="{{item.imagess}}"/>
+                     </view>  
+                </view>
+            </block>
+        </view>
+    </view>
+</view>

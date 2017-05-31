@@ -1,0 +1,47 @@
+<!--index.wxml-->
+<view class="container">
+   <view class="left" >
+   		<view class="left_text" wx:for="{{goodlists}}">
+			<text>{{item.list}}</text>
+   		</view>		
+   </view>
+   <view class="right">
+   		<view class="ad" wx:for="{{listimgs}}">
+   			<image src="{{item.listimgs}}"/>
+   		</view>
+   		<view class="add">
+   			<view class="adtitle" wx:for="{{hots}}">
+   			    <text>{{item.title}}</text>
+   		    </view>
+             <view class="adul">
+               <view class="adlist" wx:for="{{hotlist}}">
+                  <image src="{{item.imgurl}}"/>
+                  <text>{{item.imglist}}</text>
+                </view>
+             </view>   			
+   		</view>
+
+         <view class="add">
+            <view class="adtitle" wx:for="{{hots}}">
+                <text>{{item.title}}</text>
+             </view>
+             <view class="adul">
+               <view class="adlist" wx:for="{{hotlist}}">
+                  <image src="{{item.imgurl}}"/>
+                  <text>{{item.imglist}}</text>
+                </view>
+             </view>          
+         </view>  
+         <view class="add">
+            <view class="adtitle" wx:for="{{hots}}">
+                <text>{{item.title}}</text>
+             </view>
+             <view class="adul">
+               <view class="adlist" wx:for="{{hotlist}}">
+                  <image src="{{item.imgurl}}"/>
+                  <text>{{item.imglist}}</text>
+                </view>
+             </view>          
+         </view>     		
+   </view>
+</view>
